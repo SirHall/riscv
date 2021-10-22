@@ -52,3 +52,16 @@ openly.
 
 # Instruction Binary Layout
 ![Binary Layout](https://ovi.sh/riscv_mem.png)
+
+# Building
+1. Firstly, clone the repository somewhere local and `cd` into the project root.
+2. `mkdir build && cd build && cmake .. && cmake --build .`
+
+# TODO
+- [ ] Make library exportable to be easily used in other projects
+- [ ] Implement an assembler
+- [ ] Maybe full CSR support
+- [ ] Add RV64* support
+- [ ] Implement other RV*'s
+- [ ] Tests
+- [ ] Examples
